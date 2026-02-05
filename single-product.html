@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radošās rokas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/single-product.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-info d-flex justify-content-evenly flex-wrap">
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+371 xx xxx xxx</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@radosasrokas.lv</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-truck"></i>
+                                <span>Piegāde</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="logo-area">
+                            <div class="site-name">
+                                <!-- Neder H1 - span, p vai citu -->
+                                <span>Radošās rokas</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-5 col-lg-6">
+                        <div class="search-area">
+                            <div class="search-box">
+                                <input type="text" placeholder="Meklēt preces..." class="search-input">
+                                <button class="search-btn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-lg-3">
+                        <div class="user-area d-flex justify-content-end">
+                            <div class="user-btn">
+                                <i class="fas fa-user"></i>
+                                <span>Mans konts</span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="fas fa-shopping-bag"></i>
+                                <span>Grozs</span>
+                                <span class="cart-count">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Sākums</a></li>
+                            <li><a href="shop.html" class="nav-link"><i class="fas fa-store"></i> Veikals</a></li>
+                            <li><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> Par mums</a></li>
+                            <li><a href="contacts.html" class="nav-link"><i class="fas fa-envelope"></i> Kontakti</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+     <main class="main-content">
+        <!-- Product Main Section -->
+        <section class="product-main-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="product-images">
+                            <!-- Main Product Image -->
+                            <div class="main-product-image">
+                                <img src="placeholder.svg" alt="Medus ziepes" class="img-fluid">
+                            </div>
+                            
+                            <!-- Product Thumbnails -->
+                            <div class="product-thumbnails">
+                                <div class="thumbnail active">
+                                    <img src="placeholder.svg" alt="Medus ziepes front" class="img-fluid">
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="placeholder.svg" alt="Medus ziepes side" class="img-fluid">
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="placeholder.svg" alt="Medus ziepes package" class="img-fluid">
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="placeholder.svg" alt="Medus ziepes in use" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12">
+                        <div class="product-details">
+                            <!-- Product Badge -->
+                            <div class="product-badge-wrapper">
+                                <span class="product-badge new">Jauns</span>
+                                <span class="product-badge popular">Populārs</span>
+                            </div>
+                            
+                            <!-- Product Title -->
+                            <h1 class="product-title">Lorem, ipsum.</h1>
+                            
+                            <!-- Product Price -->
+                            <div class="product-price-section">
+                                <span class="current-price">€8.99</span>
+                                <span class="old-price">€12.99</span>
+                                <span class="discount-badge">-30%</span>
+                            </div>
+                            
+                            <!-- Short Description -->
+                            <div class="product-short-description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas error minima.</p>
+                            </div>
+                            
+                            <!-- Product Features -->
+                            <div class="product-features-list">
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>100% dabīgs sastāvs</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Jūtīgai ādai</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Videi draudzīgs</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>Bez ķīmiskām piedevām</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Product options(ja vajadzigs bus!) -->
+                             
+
+                            <!-- Add to Cart Section -->
+                            <div class="add-to-cart-section">
+                                <div class="quantity-selector">
+                                    <button class="quantity-btn minus"><i class="fas fa-minus"></i></button>
+                                    <input type="number" class="quantity-input" value="1" min="1" max="10">
+                                    <button class="quantity-btn plus"><i class="fas fa-plus"></i></button>
+                                </div>
+                                
+                                <div class="cart-buttons">
+                                    <button class="add-to-cart-btn">
+                                        <i class="fas fa-shopping-bag"></i> Pievienot grozam
+                                    </button>
+                                    <button class="wishlist-btn">
+                                        <i class="far fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Stock Info -->
+                            <div class="stock-info">
+                                <i class="fas fa-box"></i>
+                                <span class="stock-text">Pieejams noliktavā (12 gab.)</span>
+                            </div>
+                            
+                            <!-- Product Meta -->
+                            <div class="product-meta">
+                                <div class="meta-item">
+                                    <span class="meta-label">Kategorija:</span>
+                                    <span class="meta-value">Lorem.</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Skaits:</span>
+                                    <span class="meta-value">Lorem, ipsum.</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Atzīmes:</span>
+                                    <span class="meta-value">Lorem, Lorem, ipsum.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Tabs Section -->
+        <section class="product-tabs-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs product-tabs" id="productTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">
+                                    <i class="fas fa-file-alt"></i> Apraksts
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="ingredients-tab" data-bs-toggle="tab" data-bs-target="#ingredients" type="button" role="tab" aria-controls="ingredients" aria-selected="false">
+                                    <i class="fas fa-leaf"></i> Sastāvs
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="usage-tab" data-bs-toggle="tab" data-bs-target="#usage" type="button" role="tab" aria-controls="usage" aria-selected="false">
+                                    <i class="fas fa-spa"></i> Lietošana
+                                </button>
+                            </li>
+                        </ul>
+                        
+                        <div class="tab-content" id="productTabsContent">
+                            <!-- Description Tab -->
+                            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                                <div class="tab-content-wrapper">
+                                    <h3>Detalizēts apraksts</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                    
+                                    <h4>Ipašības:</h4>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                    </ul>
+                                    
+                                    <h4>Priekšrocības:</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                    
+                                    <h4>Mūsu ražošana:</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Ingredients Tab -->
+                            <div class="tab-pane fade" id="ingredients" role="tabpanel" aria-labelledby="ingredients-tab">
+                                <div class="tab-content-wrapper">
+                                    <h3>Sastāvs</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                    
+                                    <div class="ingredients-list">
+                                        <div class="ingredient-item">
+                                            <span class="ingredient-name">Lorem, ipsum dolor.</span>
+                                            <span class="ingredient-percent">x%</span>
+                                        </div>
+                                        <div class="ingredient-item">
+                                            <span class="ingredient-name">Lorem, ipsum.</span>
+                                            <span class="ingredient-percent">x%</span>
+                                        </div>
+                                        <div class="ingredient-item">
+                                            <span class="ingredient-name">Lorem, ipsum dolor.</span>
+                                            <span class="ingredient-percent">x%</span>
+                                        </div>
+                                        <div class="ingredient-item">
+                                            <span class="ingredient-name">Lorem.</span>
+                                            <span class="ingredient-percent">x%</span>
+                                        </div>
+                                        <div class="ingredient-item">
+                                            <span class="ingredient-name">Lorem, ipsum.</span>
+                                            <span class="ingredient-percent">x%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Usage Tab -->
+                            <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">
+                                <div class="tab-content-wrapper">
+                                    <h3>Lietošanas instrukcija</h3>
+                                    
+                                    <div class="usage-steps">
+                                        <div class="step">
+                                            <div class="step-number">1</div>
+                                            <div class="step-content">
+                                                <h4>Pirmā līmeņa virsraksts</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <div class="step-number">2</div>
+                                            <div class="step-content">
+                                                <h4>Otrā līmeņa virsraksts</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <div class="step-number">3</div>
+                                            <div class="step-content">
+                                                <h4>Trešā līmeņa virsraksts</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="care-instructions">
+                                        <h4>Kopšanas padomi:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section class="related-products-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title">Saistītās preces</h2>
+                        <p class="section-subtitle">Apskatiet arī citus mūsu produktus</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="related-product-card">
+                            <div class="product-image">
+                                <img src="placeholder.svg" alt="Olivu ziepes" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h3>Olivu ziepes</h3>
+                                <div class="product-price">€7.50</div>
+                                <button class="view-product-btn">Skatīt</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="related-product-card">
+                            <div class="product-image">
+                                <img src="placeholder.svg" alt="Mandeļu ziepes" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h3>Mandeļu ziepes</h3>
+                                <div class="product-price">€9.99</div>
+                                <button class="view-product-btn">Skatīt</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="related-product-card">
+                            <div class="product-image">
+                                <img src="placeholder.svg" alt="Vaniljas ziepes" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h3>Vaniljas ziepes</h3>
+                                <div class="product-price">€8.20</div>
+                                <button class="view-product-btn">Skatīt</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="related-product-card">
+                            <div class="product-image">
+                                <img src="placeholder.svg" alt="Kokosriekstu ziepes" class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <h3>Kokosriekstu ziepes</h3>
+                                <div class="product-price">€7.80</div>
+                                <button class="view-product-btn">Skatīt</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-main">
+                        <div class="logo-area">
+                            <div class="logo-circle">
+                                <img src="placeholder.svg" alt="image">
+                            </div>
+                            <div class="site-name">
+                                <span>Radošās rokas</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="footer-main">
+                        <div class="footer-about">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <div class="footer-social">
+                        <h3>Sociālie tīkli</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12">
+                    <div class="footer-bottom">
+                        <div class="footer-legal">
+                            <a href="#">Veikala noteikumi</a>
+                            <a href="#">Privātuma politika</a>
+                            <a href="#">Sīkdatņu politika</a>
+                        </div>
+                        <p>2026 &copy; Visas tiesības paturētas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
